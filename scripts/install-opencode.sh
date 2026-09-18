@@ -2,7 +2,7 @@
 
 curl -fsSL https://opencode.ai/install | bash
 cat >> ~/.bashrc<<EOF
-export PATH=/home/${USER}/.opencode/bin/:$PATH
+export PATH=/home/${USER_NAME}/.opencode/bin/:$PATH
 EOF
 source ~/.bashrc
 curl -fsSL https://raw.githubusercontent.com/hyhmrright/brooks-lint/main/scripts/install.sh | bash -s -- opencode
