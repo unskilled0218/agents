@@ -7,7 +7,7 @@ metadata:
 
 # Review All
 
-1. Read `../AGENTS.md`.
+1. Read `~/.config/opencode/skills/_shared/my-agents.md`.
 2. Resolve the project from the user's request.
 3. Load and apply the `brooks-review` skill to the whole project.
 4. Record the findings in the task artifact requested by the user, or report them directly if no task is active.

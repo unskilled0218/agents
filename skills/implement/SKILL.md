@@ -7,7 +7,7 @@ metadata:
 
 # Implement
 
-1. Read `../AGENTS.md`.
+1. Read `~/.config/opencode/skills/_shared/my-agents.md`.
 2. Locate the latest task under `<project>/tasks/` and read its `1-plan.md`.
 3. Create a new branch whose name exactly matches the task directory. Do not reuse an existing branch.
 4. Implement the complete plan and run the relevant verification.

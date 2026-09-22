@@ -9,6 +9,9 @@ config_home="${XDG_CONFIG_HOME:-${HOME}/.config}"
 target_dir="${config_home}/opencode/skills"
 
 mkdir -p "${target_dir}"
+mkdir -p "${target_dir}/_shared"
+
+cp "${source_dir}/AGENTS.md" "${target_dir}/_shared/my-agents.md"
 
 for skill_file in "${source_dir}"/*/SKILL.md; do
   skill_dir="$(dirname -- "${skill_file}")"

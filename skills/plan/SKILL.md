@@ -7,7 +7,7 @@ metadata:
 
 # Plan
 
-1. Read `../AGENTS.md` and follow its project and task conventions.
+1. Read `~/.config/opencode/skills/_shared/my-agents.md` and follow its project and task conventions.
 2. Do not modify implementation code.
 3. Read the user's current request from `~/workdir/command.md`.
 4. Inspect the target project enough to write an actionable implementation plan.
