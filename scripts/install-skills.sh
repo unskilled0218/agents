@@ -18,27 +18,22 @@ for skill_file in "${source_dir}"/*/SKILL.md; do
   skill_name="$(basename -- "${skill_dir}")"
   target="${target_dir}/${skill_name}"
 
-  if [[ -L "${target}" ]]; then
-    current="$(readlink -- "${target}")"
-    if [[ "${current}" == "${skill_dir}" ]]; then
-      continue
-    fi
-    printf 'Refusing to replace symlink: %s -> %s\n' "${target}" "${current}" >&2
-    exit 1
+  if [[ -z "${skill_name}" || "${target}" == "${target_dir}" ]]; then
+    printf 'Skipping invalid skill name: %s\n' "${skill_dir}" >&2
+    continue
   fi
 
-  if [[ -e "${target}" ]]; then
-    printf 'Refusing to replace existing path: %s\n' "${target}" >&2
-    exit 1
+  if [[ -L "${target}" && "$(readlink -- "${target}")" == "${skill_dir}" ]]; then
+    printf 'Up to date: %s\n' "${skill_name}"
+    continue
   fi
-done
 
-for skill_file in "${source_dir}"/*/SKILL.md; do
-  skill_dir="$(dirname -- "${skill_file}")"
-  skill_name="$(basename -- "${skill_dir}")"
-  target="${target_dir}/${skill_name}"
+  if [[ -e "${target}" || -L "${target}" ]]; then
+    rm -rf -- "${target}"
+    printf 'Replaced: %s\n' "${skill_name}"
+  fi
 
-  ln -s "${skill_dir}" "${target}"
+  ln -s -- "${skill_dir}" "${target}"
   printf 'Installed: %s\n' "${skill_name}"
 done
 
