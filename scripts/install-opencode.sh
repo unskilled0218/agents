@@ -9,3 +9,5 @@ curl -fsSL https://raw.githubusercontent.com/hyhmrright/brooks-lint/main/scripts
 bash /tmp/agents/scripts/install-skills.sh
 
 touch ~/workdir/command.md
+
+source ~/.bashrc
