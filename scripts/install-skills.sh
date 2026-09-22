@@ -33,21 +33,13 @@ for skill_file in "${source_dir}"/*/SKILL.md; do
   fi
 done
 
-installed=0
 for skill_file in "${source_dir}"/*/SKILL.md; do
   skill_dir="$(dirname -- "${skill_file}")"
   skill_name="$(basename -- "${skill_dir}")"
   target="${target_dir}/${skill_name}"
 
-  if [[ -L "${target}" ]]; then
-    printf 'Already installed: %s\n' "${skill_name}"
-    continue
-  fi
-
   ln -s "${skill_dir}" "${target}"
   printf 'Installed: %s\n' "${skill_name}"
-  installed=$((installed + 1))
 done
 
-printf 'Installed %d skill(s) in %s\n' "${installed}" "${target_dir}"
 printf 'Restart OpenCode to load the skills.\n'
