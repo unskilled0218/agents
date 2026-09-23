@@ -13,4 +13,4 @@ metadata:
 4. Load and apply the `brooks-review` skill to the plan.
 5. Write the review to `2-plan-review.md` in the same task directory.
 6. Update `1-plan.md` to address valid review findings.
-7. Commit the planning artifacts when the user has requested commits or the repository workflow explicitly requires one.
+7. Commit

@@ -12,4 +12,5 @@ metadata:
 3. Load and apply the `brooks-review` skill to the whole project.
 4. Record the findings in the task artifact requested by the user, or report them directly if no task is active.
 5. Do not implement fixes unless the user explicitly asks.
-6. Commit a generated review artifact when the repository workflow requires it.
+6. Create the next task directory under `<project>/tasks/` and write the review to `4-code-review.md`.
+7. Commit

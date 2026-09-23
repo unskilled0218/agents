@@ -12,4 +12,4 @@ metadata:
 3. Load and apply the `brooks-review` skill to those changes.
 4. Write the findings to `4-code-review.md` in the latest task directory.
 5. Do not implement fixes in this stage.
-6. Commit the review artifact when the repository workflow requires it.
+6. Commit
