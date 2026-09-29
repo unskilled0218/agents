@@ -13,11 +13,6 @@
 - Don't use emoji
 - tab size = 2
 
-- git config
-  - user
-    - name: musty8682
-    - email: musty.y0rqs@addy.io
-
 - claude
   - plan
   - coding
