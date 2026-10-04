@@ -1,5 +1,5 @@
 ---
-name: review
+name: review-branch
 description: Use ONLY when the user asks to review all changes on the current branch using the agents workflow. Applies brooks-review and records the code review for the latest task.
 metadata:
   opencode/slash: "true"
