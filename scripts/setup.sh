@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-git -c http.sslVerify=false clone https://git.lan/dev/agents/ /tmp/agents
-
 set -euo pipefail
 
 curl -fsSL https://opencode.ai/install | bash
@@ -9,5 +7,3 @@ curl -fsSL https://raw.githubusercontent.com/hyhmrright/brooks-lint/main/scripts
 bash /tmp/agents/scripts/install-skills.sh
 
 touch ~/workdir/command.md
-
-source ~/.bashrc

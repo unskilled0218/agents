@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+git -c http.sslVerify=false clone https://git.lan/dev/agents/ /tmp/agents
+
 set -euo pipefail
 
 script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
