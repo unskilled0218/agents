@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-git -c http.sslVerify=false clone https://git.lan/dev/agents/ /tmp/agents
-
 set -euo pipefail
+
+git -c http.sslVerify=false clone https://git.lan/dev/agents/ /tmp/agents
 
 script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 repo_dir="$(cd -- "${script_dir}/.." && pwd)"
@@ -38,5 +38,7 @@ for skill_file in "${source_dir}"/*/SKILL.md; do
   ln -s -- "${skill_dir}" "${target}"
   printf 'Installed: %s\n' "${skill_name}"
 done
+
+curl -L https://raw.githubusercontent.com/JuliusBrussee/caveman/refs/heads/main/skills/caveman/SKILL.md -o "${target_dir}/_shared/caveman.md"
 
 printf 'Restart OpenCode to load the skills.\n'

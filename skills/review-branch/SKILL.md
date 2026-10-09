@@ -10,6 +10,6 @@ metadata:
 1. Read `~/.config/opencode/skills/_shared/my-agents.md`.
 2. Identify all changes on the current branch relative to its base branch.
 3. Load and apply the `brooks-review` skill to those changes.
-4. Write the findings to `4-code-review.md` in the latest task directory.
+4. Write the findings to `5-code-review.md` in the latest task directory.
 5. Do not implement fixes in this stage.
 6. Commit

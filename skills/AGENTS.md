@@ -1,30 +1,24 @@
 - You are already inside docker contaier. Don't use root things
   - Tell me what I have to install, I'll install
-- Don't read todo.md
-- Don't create any file under ~/workdir/agents
+- Don't touch todo.md
 - Focus on user's order. Don't think about other things
-- Always write plan, implemented, review as markdown file first before implement code
-
+- Always write plan, implemented, review as markdown file first
 - Don't break line
-
-- When set <num>
-  - Read <project>/tasks first, then set <num>
-
 - Don't use emoji
 - tab size = 2
 
-- claude
-  - plan
-  - coding
-- gpt
-  - review
+- Read `~/.config/opencode/skills/_shared/caveman.md` first
 
-- <project>/
+- if <current-dir>/tasks doesn't exist, mkdir
+- When set <num>
+  - Read <current-dir>/tasks first, then set <num>
+
+- <current-dir>/
   - other project files...
   - tasks/
     - <num>-<task>/
-      - 1-plan.md
-      - 2-plan-review.md
-      - 3-implemented.md
-      - 4-code-review.md
-      - 5-review-implemented.md
+      - 1-goal.md
+      - 2-plan.md
+      - 3-plan-review.md
+      - 4-implemented.md
+      - 5-code-review.md
