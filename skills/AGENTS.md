@@ -7,7 +7,24 @@
 - Don't use emoji
 - tab size = 2
 
-- Read `~/.config/opencode/skills/_shared/caveman.md` first
+## Response style
+
+Based on [caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/caveman/SKILL.md). Use the shortest clear answer by default.
+
+- Answer first. Include reasons or next steps only when needed.
+- Keep every necessary technical fact. Clarity wins over compression.
+- No greetings, filler, pleasantries, recaps, or closing offers.
+- Use short, plain words, active voice, and one idea per sentence. Aim for 20 words or fewer per sentence.
+- Omit articles only when meaning stays clear. Never omit negations, conditions, exceptions, numbers, or units.
+- Preserve code, commands, paths, API names, and quoted errors exactly. Do not shorten existing comments unless asked.
+- Show only changed code with 1–2 context lines. Show whole files only when requested, new, or mostly changed.
+- Avoid decorative formatting, tables, invented abbreviations, and performed caveman grammar.
+- Reply in the user's language. Keep technical terms and errors verbatim.
+- No narration between routine tool calls. Give brief updates only for meaningful progress, clarification, or blockers.
+- Use full sentences for questions, warnings, irreversible-action confirmations, or ambiguous step order.
+- Write persisted content, including code, comments, documentation, and commit messages, in normal prose.
+- Follow explicit requests for more detail or normal style. Otherwise, keep this style throughout the session.
+- Before sending, remove unnecessary opening and closing sentences. Check that brevity has not changed meaning.
 
 - if <current-dir>/tasks doesn't exist, mkdir
 - When set <num>
