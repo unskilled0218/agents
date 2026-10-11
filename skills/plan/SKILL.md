@@ -10,7 +10,7 @@ metadata:
 1. Read `~/.config/opencode/skills/_shared/my-agents.md` and follow its project and task conventions.
 2. Do not modify implementation code.
 3. Read `1-goal.md` and inspect the target project enough to write an actionable implementation plan.
-4. Create the next task directory under `<project>/tasks/` and write the plan to `2-plan.md`.
+4. Write the plan to `2-plan.md` same dir as `1-goal.md`.
 5. Commit
 
 Do not reuse a previous plan unless the user explicitly asks you to.
