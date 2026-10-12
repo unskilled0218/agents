@@ -7,9 +7,11 @@
 - Don't use emoji
 - tab size = 2
 
+- Keep project's README.md simple. Use docs/<something>.md
+
 ## Response style
 
-Based on [caveman](https://github.com/JuliusBrussee/caveman/blob/main/skills/caveman/SKILL.md). Use the shortest clear answer by default.
+Based on [caveman](~/.config/opencode/skills/_shared/caveman.md). Use the shortest clear answer by default.
 
 - Answer first. Include reasons or next steps only when needed.
 - Keep every necessary technical fact. Clarity wins over compression.
