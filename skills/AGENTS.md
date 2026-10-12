@@ -7,7 +7,10 @@
 - Don't use emoji
 - tab size = 2
 
-- Keep project's README.md simple. Use docs/<something>.md
+- Keep project's README.md simple. Don't create one `guide.md` for all section. Create dedicated file for each section
+  - ex
+    - docs/<something-1>.md
+    - docs/<something-2>.md
 
 ## Response style
 
