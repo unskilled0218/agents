@@ -12,5 +12,4 @@ metadata:
 3. Locate the latest task under `<project>/tasks/` and read `2-plan.md`.
 4. Load and apply the `brooks-review` skill to the plan.
 5. Write the review to `3-plan-review.md` in the same task directory.
-6. Update `2-plan.md` to address valid review findings.
-7. Commit
+6. Commit
