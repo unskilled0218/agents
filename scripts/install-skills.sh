@@ -53,7 +53,7 @@ mkdir -p ${HOME}/.local/bin
 cp "${script_dir}/update-skills.sh" "${HOME}/.local/bin/"
 chmod +x "${HOME}/.local/bin/update-skills.sh"
 cat >> "${HOME}/.bashrc" <<EOF
-export PATH="${HOME}/.local/bin:$PATH"
+export PATH=${HOME}/.local/bin:$PATH
 EOF
 
 printf 'Restart OpenCode to load the skills.\n'
