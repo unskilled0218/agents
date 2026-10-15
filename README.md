@@ -17,7 +17,7 @@ curl -fsSLk https://git.lan/dev/agents/raw/branch/main/scripts/update-skills.sh 
 Or:
 
 ```bash
-bash ~/.local/share/opencode/agents/scriptss/update-skills.sh
+bash ~/.local/share/opencode/agents/scripts/update-skills.sh
 ```
 
 - https://github.com/JuliusBrussee/caveman
