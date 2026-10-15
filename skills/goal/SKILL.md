@@ -14,7 +14,11 @@ metadata:
 5. Create the next task directory under `<project>/tasks/` and write the plan to `1-goal.md`.
 6. Commit
 
-Do not reuse a previous goal unless the user explicitly asks you to.
+- Do not reuse a previous goal unless the user explicitly asks you to.
+- Create goal simple
+  - Creating goal is to check you understand what I want
+  - Just create `command` section and `goal` section.
+    - Do not create other section.
 
 # Example
 
@@ -23,9 +27,8 @@ Do not reuse a previous goal unless the user explicitly asks you to.
 
 ## command
 
-What I asked
+[The user's request, quoted exactly or briefly paraphrased.]
 
-## goal
+# goal
 
-Your answer
-```
+[A concise statement of the intended outcome or response.]
