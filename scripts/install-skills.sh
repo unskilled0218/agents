@@ -50,7 +50,7 @@ curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/refs/heads/ma
 mv -- "${caveman_file}" "${target_dir}/_shared/caveman.md"
 
 chmod +x "${script_dir}/update-skills.sh"
-cat >> "${HOME}/.bashrc" <<EOF
+cat >> "${HOME}/.bashrc" <<'EOF'
 export PATH=${script_dir}/update-skills.sh:$PATH
 EOF
 
