@@ -49,9 +49,11 @@ trap 'rm -f -- "${caveman_file}"' EXIT
 curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/refs/heads/main/skills/caveman/SKILL.md -o "${caveman_file}"
 mv -- "${caveman_file}" "${target_dir}/_shared/caveman.md"
 
-chmod +x "${script_dir}/update-skills.sh"
-cat >> "${HOME}/.bashrc" <<'EOF'
-export PATH=${script_dir}/update-skills.sh:$PATH
+mkdir -p ~/.local/bin
+cp "${script_dir}/update-skills.sh" ~/.local/bin
+chmod +x ~/.local/bin/update-skills.sh
+cat >> ~/.bashrc <<'EOF'
+export PATH=~/.local/bin/update-skills.sh:$PATH
 EOF
 
 printf 'Restart OpenCode to load the skills.\n'
