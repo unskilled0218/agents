@@ -52,6 +52,8 @@ mv -- "${caveman_file}" "${target_dir}/_shared/caveman.md"
 mkdir -p ${HOME}/.local/bin
 cp "${script_dir}/update-skills.sh" "${HOME}/.local/bin/"
 chmod +x "${HOME}/.local/bin/update-skills.sh"
-echo 'export PATH="${HOME}/.local/bin:$PATH"' >> "${HOME}/.bashrc"
+cat >> "${HOME}/.bashrc" <<EOF
+export PATH="${HOME}/.local/bin:$PATH"
+EOF
 
 printf 'Restart OpenCode to load the skills.\n'
