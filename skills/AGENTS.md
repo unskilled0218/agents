@@ -2,7 +2,7 @@
   - Tell me what I have to install, I'll install
 - Don't touch todo.md
 - Focus on user's order. Don't think about other things
-- Always write plan, implemented, review as markdown file first
+- Always create table of contents when create markdown file
 - Don't break line
 - Don't use emoji
 - tab size = 2

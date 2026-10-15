@@ -1,8 +1,14 @@
-# OpenCode setup
+# Setup
+
+- install script to update skills
 
 ```bash
 curl -fsSLk https://git.lan/dev/agents/raw/branch/main/scripts/setup.sh | bash
 ```
+
+1. Install opencode
+2. Install brooks
+3. Install custom skills
 
 ## Update skills
 
@@ -16,9 +22,7 @@ Or from a local checkout:
 bash scripts/update-skills.sh
 ```
 
-Quit and restart OpenCode to load the updated skills.
-
-caveman still long
+- caveman still long
 
 - https://github.com/JuliusBrussee/caveman
 
