@@ -23,6 +23,6 @@ target_dir="${config_home}/opencode"
 
 mkdir -p "${target_dir}"
 
-mv "${source_dir}" "${target_dir}"
+cp -a "${source_dir}" "${target_dir}"
 
 echo "Installed brooks"
