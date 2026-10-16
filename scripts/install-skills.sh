@@ -40,7 +40,7 @@ for skill_file in "${skill_files[@]}"; do
     printf 'Replaced: %s\n' "${skill_name}"
   fi
 
-  ln -s -- "${skill_dir}" "${target}"
+  cp "${skill_dir}" "${target}"
   printf 'Installed: %s\n' "${skill_name}"
 done
 
