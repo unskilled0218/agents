@@ -13,4 +13,5 @@ metadata:
 4. Implement the complete plan and run the relevant verification.
 5. Write `4-implemented.md` in the task directory with the changes and verification results.
 6. Update the project version according to the project's existing release convention.
-7. Commit the implementation when the repository workflow requires it.
+7. Always update README.md and docs after implement code. relevant only
+8. Commit the implementation when the repository workflow requires it.
