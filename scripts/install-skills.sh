@@ -50,8 +50,8 @@ curl -fsSL https://raw.githubusercontent.com/JuliusBrussee/caveman/refs/heads/ma
 mv -- "${caveman_file}" "${target_dir}/_shared/caveman.md"
 
 mkdir -p ~/.local/bin
-cp "${script_dir}/update-skills.sh" ~/.local/bin
-chmod +x ~/.local/bin/update-skills.sh
+cp "${script_dir}/update-skills.sh" ~/.local/bin/update-skills
+chmod +x ~/.local/bin/update-skills
 cat >> ~/.bashrc <<'EOF'
 export PATH=~/.local/bin:$PATH
 EOF
