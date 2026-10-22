@@ -11,11 +11,7 @@ curl -fsSLk https://git.lan/dev/agents/raw/branch/main/scripts/setup.sh | bash
 ## Update skills
 
 ```bash
-update-skills.sh
-```
-
-```bash
-bash ~/.local/share/opencode/agents/scripts/update-skills.sh
+update-skills
 ```
 
 ```bash
