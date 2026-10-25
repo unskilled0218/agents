@@ -37,7 +37,7 @@ Based on [caveman](~/.config/opencode/skills/_shared/caveman.md). Use the shorte
 
 ## tasks
 
-- after each task(skill) call `curl -d "<task>-<skill> ended" https://ntfy.lan/general`
+- after each task(skill) call `curl -d "<project>: <task>-<skill> ended" https://ntfy.lan/general`
 
 ### structure
 
