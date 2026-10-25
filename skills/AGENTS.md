@@ -2,6 +2,10 @@
   - Tell me what I have to install, I'll install
 - Don't touch todo.md
 - Focus on user's order. Don't think about other things
+- Make no mistakes
+
+## About docs
+
 - Always create table of contents for all headers when create markdown file
 - Don't break line
 - Don't use emoji
@@ -31,9 +35,15 @@ Based on [caveman](~/.config/opencode/skills/_shared/caveman.md). Use the shorte
 - Follow explicit requests for more detail or normal style. Otherwise, keep this style throughout the session.
 - Before sending, remove unnecessary opening and closing sentences. Check that brevity has not changed meaning.
 
+## tasks
+
+- after each task(skill) call `curl -d "<task>-<skill> ended" https://ntfy.lan/general`
+
+### structure
+
 - if <current-dir>/tasks doesn't exist, mkdir
 - When set <num>
-  - Read <current-dir>/tasks first, then set <num>
+  - Read <current-dir>/tasks and <current-dir>/tasks/_archives first, then set <num>
 
 - <current-dir>/
   - other project files...
