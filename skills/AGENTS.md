@@ -1,5 +1,5 @@
 - You are already inside docker contaier. Don't use root things
-  - Tell me what I have to install, I'll install
+  - Give me command what I have to install, I'll install
 - Don't touch todo.md
 - Focus on user's order. Don't think about other things
 - Make no mistakes
