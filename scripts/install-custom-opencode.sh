@@ -32,8 +32,14 @@ set -euo pipefail
 exec opencode auth login openai "$@"
 EOF
 
+cat > "${target_dir}/ocw" <<'EOF'
+#!/usr/bin/env bash
+set -euo pipefail
+exec opencode server --hostname 0.0.0.0 --port 4096 "$@"
+EOF
+
 cp "${script_dir}/update-oc.sh" "${target_dir}/update-oc"
-for command in oc ocs ocl oca update-oc; do
+for command in oc ocs ocl oca ocw update-oc; do
   chmod +x "${target_dir}/${command}"
   printf 'Installed: %s\n' "${command}"
 done
