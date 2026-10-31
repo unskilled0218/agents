@@ -35,7 +35,8 @@ EOF
 cat > "${target_dir}/ocw" <<'EOF'
 #!/usr/bin/env bash
 set -euo pipefail
-exec OPENCODE_PASSWORD='opencode' opencode serve --hostname 0.0.0.0 --port 4096 "$@"
+OPENCODE_PASSWORD='opencode'
+exec opencode serve --hostname 0.0.0.0 --port 4096 "$@"
 EOF
 
 cp "${script_dir}/update-oc.sh" "${target_dir}/update-oc"
