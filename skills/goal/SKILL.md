@@ -27,7 +27,7 @@ metadata:
 
 ## command
 
-[The user's request, quoted exactly or briefly paraphrased.]
+[copy paste user's request]
 
 # goal
 
