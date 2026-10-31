@@ -7,6 +7,8 @@
 ## About docs
 
 - Always create table of contents for all headers when create markdown file
+- Keep short and simple and easy to understand
+
 - Don't break line
 - Don't use emoji
 - tab size = 2
@@ -38,6 +40,7 @@ Based on [caveman](~/.config/opencode/skills/_shared/caveman.md). Use the shorte
 ## tasks
 
 - after each task(skill) call `curl -d "<project>: <task>-<skill> ended" https://ntfy.lan/general`
+  - Don't notify for `brooks-*`
 
 ### structure
 
