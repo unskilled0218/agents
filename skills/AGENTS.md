@@ -3,6 +3,8 @@
 - Don't touch todo.md
 - Focus on user's order. Don't think about other things
 - Make no mistakes
+- Don't implement anything until user call skill: @implement
+- When user ask something, answer the question. Don't implement anything
 
 ## About docs
 
