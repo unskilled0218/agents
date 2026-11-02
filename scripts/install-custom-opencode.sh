@@ -45,7 +45,7 @@ for command in oc ocs ocl oca ocw update-oc; do
   printf 'Installed: %s\n' "${command}"
 done
 
-path_line='export PATH=~/.local/bin:$PATH'
+path_line='export PATH=/home/${USER_NAME}/.local/bin:$PATH'
 if ! grep -qxF "${path_line}" "${HOME}/.bashrc" 2>/dev/null; then
   printf '\n%s\n' "${path_line}" >> "${HOME}/.bashrc"
 fi
