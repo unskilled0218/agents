@@ -16,7 +16,7 @@ metadata:
 
 - Read `~/.config/opencode/skills/_shared/my-agents.md` and follow its project and task conventions.
 - This is an optional step between `@goal` and `@plan` for UI tasks.
-- Do not create a task, branch, or commit. Do not modify application code or numbered workflow files.
+- Do not create a task or branch. Do not modify application code or numbered workflow files.
 - Use an existing task directory. Ask which task to use if the target is unclear. If no task exists, ask the user to run `@goal` first.
 - Only modify the task's design document, exported previews, and the explicitly selected Penpot design area. Preserve unrelated designs.
 - Do not install tools or change configuration. Report missing tools and ask how to proceed.
@@ -32,6 +32,7 @@ metadata:
 6. Specify reusable components, color tokens, typography, spacing, responsive behavior, and interaction rules. Cover keyboard navigation, focus states, labels, and WCAG AA contrast. Distinguish intended accessibility from checks actually performed.
 7. Export previews and write `design-ui.md`. Include editable board links or identifiers and a concise summary of design decisions and unresolved questions.
 8. Show the design and ask for approval or revisions. Iterate within the agreed scope. Keep the status `Draft` until the user explicitly approves the current version.
+9. commit
 
 ## Outputs
 
