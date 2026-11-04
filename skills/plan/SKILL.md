@@ -24,15 +24,8 @@ Do not reuse a previous plan unless the user explicitly asks you to.
 
 ## Implementation Plan
 
-### Summary
+1. ~
+2. ~
+3. ~
 
-### 1. ~
-
-### 2. ~
-
-### 3. ~
-
-## Acceptance Criteria
-
-## Risks And Decisions
 ```
