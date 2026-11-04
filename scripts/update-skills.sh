@@ -15,7 +15,11 @@ if [[ -e "${repo_dir}" ]]; then
     printf 'Not a skill repository: %s\n' "${repo_dir}" >&2
     exit 1
   fi
-  git "${git_options[@]}" -C "${repo_dir}" pull --ff-only
+  git "${git_options[@]}" -C "${repo_dir}" fetch --prune
+  # Treat the installed checkout as disposable: replace tracked local changes
+  # and divergent commits with the current upstream version.
+  printf 'Force updating %s to its upstream (discarding tracked local changes).\n' "${repo_dir}"
+  git "${git_options[@]}" -C "${repo_dir}" reset --hard '@{upstream}'
 else
   mkdir -p -- "$(dirname -- "${repo_dir}")"
   git "${git_options[@]}" clone -- "${repo_url}" "${repo_dir}"
