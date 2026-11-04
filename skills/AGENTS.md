@@ -41,6 +41,7 @@ Based on [caveman](~/.config/opencode/skills/_shared/caveman.md). Use the shorte
 
 ## tasks
 
+- write short, clear and easy to understand
 - after each task(skill) call `curl -d "<project>: <task>-<skill> ended" https://ntfy.lan/dev`
   - Don't notify for `brooks-*`
 
