@@ -17,18 +17,21 @@ metadata:
 - Do not reuse a previous goal unless the user explicitly asks you to.
 - Create goal simple
   - Creating goal is to check you understand what I want
-  - Just create `command` section and `goal` section.
-    - Do not create other section.
+  - Do not create other section.
 
 # Example
 
 ```markdown
-# goal
+# Goal
 
-## command
+## Command
 
 [copy paste user's request]
 
-# goal
+## Goal
 
 [A concise statement of the intended outcome or response.]
+
+## Suggestions
+
+[Any suggestions are welcome]
