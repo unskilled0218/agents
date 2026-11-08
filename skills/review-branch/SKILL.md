@@ -7,7 +7,7 @@ metadata:
 
 # Review
 
-1. Read `~/.config/opencode/skills/_shared/my-agents.md`.
+1. Run `@learn` first
 2. Identify all changes on the current branch relative to its base branch.
 3. Load and apply the `brooks-health` skill to those changes.
 4. Write the findings to `5-code-review.md` in the latest task directory.

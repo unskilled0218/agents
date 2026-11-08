@@ -7,7 +7,7 @@ metadata:
 
 # Plan Review
 
-1. Read `~/.config/opencode/skills/_shared/my-agents.md`.
+1. Run `@learn` first
 2. Do not modify implementation code.
 3. Locate the latest task under `<project>/tasks/` and read `2-plan.md`.
 4. Load and apply the `brooks-health` skill to the plan.

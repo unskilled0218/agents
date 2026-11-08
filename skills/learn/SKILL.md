@@ -5,5 +5,5 @@ metadata:
   opencode/slash: "true"
 ---
 
-- Read `~/.config/opencode/skills/_shared/my-agents.md` and follow its project and task conventions.
-- Do not change anything
+1. Read `~/.config/opencode/skills/_shared/caveman.md`. Use the shortest clear answer by default.
+2. Read `~/.config/opencode/skills/_shared/my-agents.md` and follow its project and task conventions.
