@@ -7,5 +7,5 @@ metadata:
 
 # Plan
 
-1. Rewrite latest files in short and easy to understand
+1. Rewrite latest file in short and easy to understand
 2. commit
