@@ -5,7 +5,9 @@ metadata:
   opencode/slash: "true"
 ---
 
-- Check latest task first. if 1-goal.md file exist, skip @goal and use task
+- Check latest task first
+  - if only `1-goal.md` file exist, skip @goal and use task
+  - if other files exist, create new task
 
 1. @goal
 2. @plan
