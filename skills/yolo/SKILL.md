@@ -6,8 +6,8 @@ metadata:
 ---
 
 - Check latest task first
-  - if only `1-goal.md` or `design-ui.md` file exist, skip @goal and use task
-    - `design-ui.md` may exist or not depend on task
+  - If the task has `1-goal.md` and no later numbered workflow files other than optional `2-design.md`, skip @goal and use the task. Design previews may also exist.
+    - If `2-design.md` exists but is not approved or has blocking questions, stop and ask for clarification before @plan.
   - if other files exist, create new task
 
 1. @goal

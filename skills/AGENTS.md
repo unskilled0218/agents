@@ -1,3 +1,7 @@
+- [About docs](#about-docs)
+- [tasks](#tasks)
+  - [structure](#structure)
+
 - You are already inside docker contaier. Don't use root things
   - Give me command what I have to install, I'll install
 - Don't touch todo.md
@@ -38,7 +42,12 @@
   - tasks/
     - <num>-<task>/
       - 1-goal.md
-      - 2-plan.md
-      - 3-plan-review.md
-      - 4-implemented.md
-      - 5-code-review.md
+      - 2-design.md
+      - 3-plan.md
+      - 4-plan-review.md
+      - 5-implemented.md
+      - 6-code-review.md
+
+- `2-design.md` is optional for tasks without UI or workflow changes. Keep later filenames unchanged when skipping design.
+- Design describes how the feature should work: user flow, screens, states, design links, diagrams, and decisions. Planning describes how to build it.
+- Use `@design` for UI mockups and their handoff in `2-design.md`.
