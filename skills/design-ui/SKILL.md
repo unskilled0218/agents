@@ -27,7 +27,7 @@ metadata:
 1. Read the task's `1-goal.md`, any existing design files, and relevant project UI conventions. Inspect existing screens, components, tokens, and assets before proposing new patterns.
 2. Confirm target users, primary actions, required screens, desktop/mobile needs, and any brand or visual references. Ask only about missing details that affect the design. Record assumptions.
 3. Propose one visual direction with its layout, typography, colors, and navigation. Reuse the project's design system unless the user requests a change. Get agreement before detailed mockups.
-4. Use Penpot to create editable mockups. Read the Penpot tool overview before using its API. Confirm the target file and page before changing an existing design. If Penpot is unavailable, ask whether a written wireframe is acceptable; do not silently substitute one.
+4. Use Penpot to create editable mockups. Read the Penpot tool overview before using its API. If Penpot is unavailable, ask whether a written wireframe is acceptable; do not silently substitute one.
 5. Design the primary user flow and agreed viewport sizes. Include applicable loading, empty, error, success, validation, and disabled states. Explain any omitted states.
 6. Specify reusable components, color tokens, typography, spacing, responsive behavior, and interaction rules. Cover keyboard navigation, focus states, labels, and WCAG AA contrast. Distinguish intended accessibility from checks actually performed.
 7. Export previews and write `design-ui.md`. Include editable board links or identifiers and a concise summary of design decisions and unresolved questions.
