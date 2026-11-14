@@ -9,7 +9,8 @@
 - Make no mistakes
 - Don't implement anything until user call skill: @implement
 - When user ask something, answer the question. Don't implement anything
-- If you need user confirmation while doing notify user: curl -d "<project>: <task>-<your request>" https://ntfy.lan/dev
+- If you need user's confirmation, curl UnifiedPush
+  - curl -d "<project>: <task>-<request>" https://ntfy.lan/dev
 
 ## About docs
 
@@ -29,6 +30,7 @@
 
 - write short, clear and easy to understand
 - after each task(skill) call `curl -d "<project>: <task>-<skill>" https://ntfy.lan/dev`
+  - ex) curl -d "todo: task-021 - plan" https://ntfy.lan/dev
   - Don't notify for `@learn` and `brooks-*`
 
 ### structure
