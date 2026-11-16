@@ -10,6 +10,20 @@ mkdir -p "${target_dir}"
 cat > "${target_dir}/oc" <<'EOF'
 #!/usr/bin/env bash
 set -euo pipefail
+port="$(python3 - <<'PY'
+import socket
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as listener:
+  try:
+    listener.bind(("0.0.0.0", 49374))
+  except OSError:
+    listener.bind(("0.0.0.0", 0))
+  print(listener.getsockname()[1])
+PY
+)"
+if [[ "${port}" != 49374 ]]; then
+  opencode service set port "${port}"
+fi
 exec opencode --yolo "$@"
 EOF
 
